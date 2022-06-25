@@ -1,0 +1,34 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sw-container {
+    background-color: rgb(35, 195, 201);
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+
+.stopwatch {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    button {
+        background: #fff;
+        border: none;
+        outline: 0;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+}
